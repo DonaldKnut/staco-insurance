@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+
+body{
+    font-family: 'montserrat', sans-serif;
+    background: #B1AFAF;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.top-header{
+    position: fixed;
+    padding: 6px 3px 2px 2px;
+    display: flex;
+    width: 100%;
+    background: #3379b7a4;
+    justify-content: space-between;
+    height: 42px;
+}
+
+.logo{
+    width: 109px;
+}
+
+.contact-text{
+    margin: 0;
+    font-size: 12px;
+}
+
+.cover{
+    /* display: flex; */
+    background: url(../images/carousel-images__folder/Dell.png) center/cover;
+    /* height: 658px; */
+    height: 704px;
+    padding: 54px 12px;
+}
+
+.text-label li{
+    margin-bottom: 33px;
+}
+
+.container input{
+    outline: none;
+    border: none;
+    width: 97%;
+    padding: 3px;
+    margin-bottom: 7px;
+    background: #8a9cac;
+    transition: all 0.5s;
+}
+
+.text-anchor-tag{
+    text-decoration: none;
+    color: white;
+}
+
+.message-box{
+    height: 116px;
+}
+
+.container input:focus{
+    background: #7a7e68;
+    color: white;
+}
+
+.container h1{
+    color: bisque;
+}
+
+.container{
+    background: #3379b7c7;
+    border-radius: 12px;
+    width: 100%;
+    height: 386px;
+    padding: 14px 9px;
+    box-sizing: border-box;
+    box-shadow: 12px 12px 56px black;
+}
+
+.quote-button{
+    font-family: inherit;
+    border: none;
+    background: #05345e;
+    color: white;
+    cursor: pointer;
+    padding: 10px 24px;
+    transition: background 0.6s;
+}
+
+.quote-button:hover{
+    background: #1485e9;
+}
+
+
+.container8{
+    background: #337AB7;
+    padding: 12px;
+}
+
+.first-footer__section-wrapper p{
+    font-size: 13px;
+}
+
+body > div > div.container8 > div.branch-address__wrapper > a{
+    font-size: 10px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.branch-address__wrapper h4{
+    color: black;
+    margin-bottom: 5px;
+}
+
+.location-icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.location{
+    margin: 0;
+}
+
+body > div > div.container8 > div.email-container > a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.mail-icon{
+    width: 24px;
+    height: 25px;
+    margin-right: 6px;
+}
+
+.facebook{
+    width: 27px;
+}
+
+.twitter{
+    width: 27px;
+}
+
+.social-media__container{
+    margin-bottom: 9px;
+}
+
+.visa{
+    width: 66px;
+}
+
+.mastercard{
+    width: 40px;
+}
+
+.paypal{
+    width: 66px;
+}
+
+
+.anchor-link__for-address{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 9px;
+}
+
+
+@media (min-width: 500px){
+    .cover{
+        display: flex;
+    }
+
+    .contact-text{
+        font-size: 21px;
+    }
+
+    .logo{
+        width: 153px;
+    }
+
+    .first-footer__section-wrapper p {
+        font-size: 14px;
+    }
+
+    .cover {
+        height: 394px;
+    }
+
+    .anchor-link__for-address{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 9px;
+    }
+
+    .branch-address__wrapper h4{
+        margin-top: 0;
+    }
+}
+
+@media(min-width: 1047px){
+    .container8{
+        display: flex;
+    }
+
+
+}
+
